@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>real-time validation</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <form action="" id="registrationForm">
+        <div class="label-input">
+            <label for="name">Enter your name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <span id="nameError" class="error"></span>
+            <i class='bx bxs-error-circle' id="nameErrorIcon"></i>
+            <i class='bx bxs-check-circle' id="nameCheck"></i>
+        </div>
+
+        <div class="label-input">
+            <label for="name">Enter your email address</label>
+            <input type="text" name="email" id="email" placeholder="Enter your email address">
+            <span id="emailError" class="error"></span>
+            <i class='bx bxs-error-circle' id="emailErrorIcon"></i>
+            <i class='bx bxs-check-circle' id="emailCheck"></i>
+        </div>
+
+        <div class="label-input">
+            <label for="name">Enter your password</label>
+            <input type="password" name="password" id="password" placeholder="Enter password">
+            <span id="passwordError" class="error"></span>
+            <i class='bx bxs-error-circle' id="passwordErrorIcon"></i>
+            <i class='bx bxs-check-circle' id="passwordCheck"></i>
+        </div>
+
+        <button type="submit" class="btn" id="btn">Register</button>
+    </form>
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
